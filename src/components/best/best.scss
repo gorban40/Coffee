@@ -1,0 +1,53 @@
+.best {
+    min-height: 495px;
+    background: url('../../img/best/Mask\ Group.jpg') center center/cover no-repeat;
+    &__title {
+        padding-top: 80px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+        color: #000000;
+    }
+    &__wrapper {
+        margin-top: 40px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        column-gap: 70px;
+        &_price {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-start;
+            padding-right: 22px;
+        }
+    }
+    &__item {
+        height: 220px;
+        width: 240px;
+        background: rgba(255, 255, 255, 0.65);
+        border-radius: 8px;
+        display: grid;
+        grid-template-rows: 3fr 1fr;
+    }
+    &__photo {
+        display: block;
+        margin: auto auto;
+    }
+    &__name {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    &__price {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+}

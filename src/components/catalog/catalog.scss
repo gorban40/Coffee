@@ -1,0 +1,8 @@
+.catalog {
+    margin-top: 40px;
+    &__panel {
+        display: flex;
+        justify-content: center;
+        column-gap: 85px;
+    }
+}

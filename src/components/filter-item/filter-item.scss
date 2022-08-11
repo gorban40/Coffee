@@ -1,0 +1,30 @@
+.filter {
+    display: flex;
+    align-items: center;
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    &__wrapper {
+        margin-left: 35px;
+        display: flex;
+        column-gap: 5px;
+    }
+    &__btn {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #000000;
+        //BTN
+        width: 75px;
+        height: 30px;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px 0px 0px 4px;
+        border: none;
+        cursor: pointer;
+    }
+}

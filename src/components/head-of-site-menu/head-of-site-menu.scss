@@ -1,0 +1,25 @@
+.menu {
+    padding-top: 30px;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    &__img {
+        position: absolute;
+        top: -15px;
+        left: 5px;
+    }
+    &__item {
+        padding-left: 40px;
+        list-style-type: none;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            color: #FFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
